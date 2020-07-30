@@ -153,19 +153,19 @@
 
   .space_main li{
       flex-basis: 33.333333%;
-      
-      display: list-item;
+
+      /* display: flex; */
 
       margin-bottom: 30px;
   }
 
   .space_main_photo{
-    width: 400px;
+    width: 350px;
     height: 300px;
   }
 
   .space_main_text{
-    width:400px;
+    width:350px;
     height: 100px;
   }
 
