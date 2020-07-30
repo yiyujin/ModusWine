@@ -1,0 +1,235 @@
+.event_banner {
+    background-color: #242424;
+    padding: 25px;
+    text-align: center;
+  }
+
+  .event_banner a{color:white;}
+  
+  .top_nav {
+    /* background: #ffffff; */
+    background-color: rgba(255,255,255,.95);
+    border-bottom: #242424 1px solid;
+    color: #000000;
+
+    display: flex;
+    position: relative;
+
+    width: 100%;
+    height: 60px;
+  }
+
+  .top_nav div{
+      position: absolute;
+
+      /* vertically center */
+      margin:0;
+      top: 50%;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+  }
+
+  .top_logo_container{
+      left:0;
+  }
+
+  .top_logo{
+      background-image: url("src/top_logo.jpg");
+
+      width:150px;
+      height: 50px;
+  }
+
+  .tabs{
+      position: absolute;
+      right:0;
+  }
+
+  .tabs a{
+      padding-right: 20px;
+
+      color: black;
+  }
+
+  .tabs a:hover{
+      text-decoration: underline;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+  /* 소믈리에 컨텐츠 추천 */
+
+  .sommelier_recom_container{
+    margin-top: 30px;
+
+    width: 100%;
+    height: 500px;
+
+    display:flex;
+  }
+
+  .sommelier_recom_title{
+    width:30%;
+  }
+
+  .mySlides_container{
+    width: 70%;
+  }
+
+  .sommelier_recom_title>h2,p{
+    padding:100px;
+  }
+
+  .mySlides{
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  /* space_main */
+  .space_main_container{
+      display: block;
+      margin-left: 10%;
+      margin-right: 10%;
+
+      margin-top: 30px;
+  }
+
+  .space_main{
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .space_main div{
+    /* center */
+    margin: 0 auto;
+
+    border: 1px solid #242424;
+  }
+
+  .space_main li{
+      flex-basis: 33.333333%;
+      
+      display: list-item;
+
+      margin-bottom: 30px;
+  }
+
+  .space_main_photo{
+    width: 400px;
+    height: 300px;
+  }
+
+  .space_main_text{
+    width:400px;
+    height: 100px;
+  }
+
+  .space_main_text>h3,p{
+    padding: 10px;
+  }
+
+  .sommelier_main_container{
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    margin-top: 30px;
+  }
+
+  .sommelier_main{
+    display: flex;
+    overflow: scroll;
+  }
+
+  .sommelier_photo{
+    width:300px;
+    height:300px;
+
+    margin-right: 10px;
+
+    background-color: #f1f1f1;
+  }
+
+  .sommelier_text{
+    width:300px;
+    height:20px;
+
+    padding-top: 10px;
+  }
+
+  .footer{
+    width:100%;
+    height:500px;
+
+    background-color: #f1f1f1;
+
+    margin-top: 100px;
+  }
+
+
+
+  /* photos */
+  #sommelier_recom_01{background-image: url("src/sample.jpg");}
+  #sommelier_recom_02{background-image: url("src/sample2.jpg");}
+  #sommelier_recom_03{background-image: url("src/sample3.jpg");}
+
+  #space_main_01{background-image: url("src/sample.jpg");}
+  #space_main_02{background-image: url("src/sample2.jpg");}
+  #space_main_03{background-image: url("src/sample3.jpg");}
+  #space_main_04{background-image: url("src/sample.jpg");}
+  #space_main_05{background-image: url("src/sample2.jpg");}
+  #space_main_06{background-image: url("src/sample3.jpg");}
+
+  #sommelier_main_01{background-image: url("src/sommelier_sample1.png");}
+  #sommelier_main_02{background-image: url("src/sommelier_sample2.png");}
+  #sommelier_main_03{background-image: url("src/sommelier_sample3.png");}
+  #sommelier_main_04{background-image: url("src/sommelier_sample4.png");}
+  #sommelier_main_05{background-image: url("src/sommelier_sample5.png");}
+  #sommelier_main_06{background-image: url("src/sommelier_sample1.png");}
+  
+
